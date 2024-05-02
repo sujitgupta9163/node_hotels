@@ -1,7 +1,11 @@
 const mongoose = require('mongoose');
 
-const mongoURL = 'mongodb://localhost:27017/hotels';
+  // const mongoURL = 'mongodb://localhost:27017/hotels';
+  const mongoURL = 'mongodb+srv://sujitgupta9163:Sujit123@cluster0.crjns8t.mongodb.net/'
 
+
+// const mongouri = process.env.MONGOBD_URL;
+// const URL = process.env.MONGODB_URL;
 mongoose.connect(mongoURL , {
   
 })
